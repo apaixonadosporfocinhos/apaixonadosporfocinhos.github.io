@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --cor-de-fundo-rosinha: #f8e3e9;
+    --cor-de-fundo-azulzinho: #caeaf4;
+    --cor-texto-azul: #5ebbd6;
+    --cor-texto-rosa: #f6b0ce;
+}
+.imagem__plaquinha{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+
+}
+body{
+    font-family: "Roboto", sans-serif;
+
+}
+.informação{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.informação__plaquinha__subtitulo{
+    background-color: var(--cor-de-fundo-rosinha) ;
+    color: var(--cor-texto-rosa);
+    padding: 0.5em;
+    border-radius: 20px;
+    font-size: 1.5em;
+}
+.informação__plaquinha__texto{
+    color: var(--cor-texto-azul);
+    font-size: medium;
+    padding: 0.5em;
+}
+.informação__plaquinha__foto__descrição{
+    background-color: var(--cor-de-fundo-azulzinho);
+    color: var(--cor-texto-azul);
+    padding: 0.5em;
+    border-radius: 20px;
+}
+.rodape{
+    background-color: var(--cor-de-fundo-azulzinho);
+    color: var(--cor-texto-azul);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-size: 0.75em;
+}
+.rodape__img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    
+}
+.rodape a{
+    text-decoration: none;
+    color: var(--cor-texto-azul);
+}
+
+.rodape a:hover{
+    text-decoration: none;
+    color: var(--cor-texto-rosa);
+}
